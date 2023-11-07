@@ -1,0 +1,50 @@
+///////////////=============== Risk ===============///////////////
+/////-----------Présentation-----------/////
+Risk est un jeu de plateau au tour par tour. Le jeu ce joue de 2 à 10 joueurs.
+- Phase 1A: Les joueurs piochent "X" cartes aux hasards, ces cartes indique où et combien de soldat poser.
+- Phase 1B: Les joueurs gagnent "X" soldats qu'ils poseront à tour de rôle sur la carte
+- Phase 2A: Le joueur dont c'est le tour reçoit "X" soldats. Le nombre est déterminé par le nombre de terrains possédés ainsi que les bonus
+- Phase 2B: Le joueur pose où bon lui semble ses nouveaux soldats. Séparément ou colectivement
+- Phase 3B: Le joueur déclare ses attaques. Il peut cummuler autant d'attaque qu'il veut mais ne peut gagner que jusqu'à trois cartes bonus maximum. Les cartes bonus sont obtenues en en gagnant des terrains.
+- Phase 4B: Le joueur peut décider de faire un seul et unique mouvement de troupe vers un autre territoire.
+
+////------------Liste des taches------------////
+///________Front-end________///
+- 1.créer une interface
+  -- 1.A {créer la fenêtre} 
+  -- 2.B 
+- 2.créer un fichier exécutable
+  -- 2.A {Installer pip}
+  -- 2.B {Installer pyinstaller}
+  -- 2.C {Créer l'exécutable avec la commande suivante: sudo pyinstaller --onefile nomDuFichier.py}
+  -- 2.D {Faire en sorte que le fichier puisse être créer en raccourci sur windows (à tester)}
+- 3.écran de chargement lors du lancement du jeu
+- 4.écran de login 
+  -- 4.A Créer l'input text et le boutton
+- 5.écran d'inscription
+  -- 5.A input texte pour le pseudo
+  -- 5.B input texte pour le password
+- 6.écran de sélections jeux
+  -- 6.A Menu dans lequel sont exposé tous les modes
+  -- 6.B Bouton lancer la partie avec un compte à rebour
+- 7.Créer plusieurs cartes
+  - 7.A Créer les continents
+- 8.Créer les cartes
+- 9.Créer les unités
+  -- 9.A Soldats
+  -- 9.B Canons
+  -- 9.C Tanks
+- 10. écran de jeu
+  -- 10.X Il y'aura plein d'étape qu'il faudra poffiner par après (voir figam asap)
+
+///________Back-end________///
+- 1.Créer un serveur pour récupérer les connexion et pouvoir jouer sur mon propre serveur
+  -- 1.A Sécuriser la connexion
+- 2.Récupérer le mdp superAdmin et permettre d'accéder à l'écran d'inscription
+- 3.Sécuriser les pseudo et les password
+- 4.Synchroniser tous les joueurs pour les lancer dans la même partie
+
+////------------Liens utiles------------////
+- Transformer un script python en fichier exécutable ==> https://medium.com/@cindanojonathan.fr/transformer-un-script-python-en-fichier-ex%C3%A9cutable-exe-1c5922261932#:~:text=Ex%C3%A9cutez%20la%20commande%20pyinstaller%20%3A%20%E2%80%9Cpyinstaller,nom%20r%C3%A9el%20de%20votre%20script.
+
+- Créer une fenêtre ==> https://www.cours-gratuit.com/tutoriel-python/tutoriel-python-programmer-une-interface-graphique-avec-tkinter-partie-1
